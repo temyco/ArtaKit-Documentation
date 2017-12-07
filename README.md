@@ -35,7 +35,7 @@ ArtaKit.instance.setLogLevel(logLevel: ArtaLogLevel)
 ArtaKit.instance.augmentedDebugEnabled = true
 ```
 
-## Initialization example:
+## Initialization example
 Enabled Info log level and augmented debug mode:
 ```swift
 ArtaKit.instance.initialize(apiKey: "YOUR_API_KEY");
@@ -43,7 +43,7 @@ ArtaKit.instance.setLogLevel(logLevel: .info)
 ArtaKit.instance.augmentedDebugEnabled = true
 ```
 
-## Implementation steps:
+## Implementation steps
 
 1. Load virtual product by product code:
 ```swift
