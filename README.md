@@ -1,10 +1,10 @@
-# ArtaKit Overview
+# ArtaKit Documentation
 ARTA - Augmented Reality for Retail.
 
 ArtaKit (ARTA iOS SDK) allows you to easily integrate augmented reality experiences of your products from ARTA AR CLOUD into your existing shopping apps for iPhone and/or iPad. ArtaKit handles augmented reality preview, access management, download and caching of the virtual products. 
 
 
-# Installation and Setup
+## Installation and Setup
 
 #### ApiKey
 Go to [ARTA Website](http://arta.azurewebsites.net) and create subscription to obtain ApiKey.
@@ -15,7 +15,7 @@ Install SSZipArchive - popular, fast and simple utility class for zipping and un
 In your Podfile:
 ```pod 'SSZipArchive'```
 
-# Usage
+## Usage
 
 Initialize ArtaKit with your ApiKey:
 ```swift
@@ -35,7 +35,7 @@ ArtaKit.instance.setLogLevel(logLevel: ArtaLogLevel)
 ArtaKit.instance.augmentedDebugEnabled = true
 ```
 
-# Initialization example:
+## Initialization example:
 Enabled Info log level and augmented debug mode:
 ```swift
 ArtaKit.instance.initialize(apiKey: "YOUR_API_KEY");
@@ -43,7 +43,7 @@ ArtaKit.instance.setLogLevel(logLevel: .info)
 ArtaKit.instance.augmentedDebugEnabled = true
 ```
 
-# Implementation steps:
+## Implementation steps:
 
 1. Load virtual product by product code:
 ```swift
@@ -88,20 +88,20 @@ ArtaKit.instance.hasVirtualProduct(productCode: "PRODUCT_CODE") { (hasProduct) i
 }
 ```
 
-# Cache management
+## Cache management
 In addition, framework has lightweight and handy features for managing device cache, such as eliminating and free-up resources, in just a single call:
 ```swift
 ArtaKit.instance.clearCache()
 ```
 
-# Handling messages
+## Handling messages
 ArtaKit provides an ability to handle different kinds of warnigns / errors. This can be done through **ArtaKitErrorMessagingDelegate**, which has two optional functions:
 ```swift
 onARKitError(code: ArtaKitError, message: String)
 onNetworkError(code: ArtaClientError, message: String)
 ```
 
-# Enums description for handling messages:
+## Enums description for handling messages:
 #### ArtaKitError
 ```
 errorARSession
@@ -126,7 +126,7 @@ downloadProductFailed
 (failed download virtual product from cloud)
 ```
 
-# Supported devices:
+## Supported devices:
 - [x] iPhone 6s and 6s Plus
 - [x] iPhone 7 and 7 Plus
 - [x] iPhone SE
@@ -135,6 +135,6 @@ downloadProductFailed
 - [x] iPhone 8 and 8 Plus
 - [x] iPhone X
 
-# Supported iOS versions:
+## Supported iOS versions:
 - [x] Apple’s iOS 11 and above
 
