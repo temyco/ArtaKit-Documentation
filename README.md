@@ -1,8 +1,7 @@
-# ArtaKit Documentation
-Augmented Reality To All
+# ArtaKit Overview
+ARTA - Augmented Reality for Retail.
 
-# Prerequisites
-ArtaKit allows you to easily create augmented reality experiences for iPhone and iPad. By blending digital objects and information with the environment around you. ArtaKit help apps to interact with the real world in entirely new ways.
+ArtaKit (ARTA iOS SDK) allows you to easily integrate augmented reality experiences of your products from ARTA AR CLOUD into your existing shopping apps for iPhone and/or iPad. ArtaKit handles augmented reality preview, access management, download and caching of the virtual products. 
 
 
 # Installation and Setup
@@ -78,7 +77,7 @@ func productLoadCompleted(success: Bool, path: String) {
 }
 ```
 
-ArtaKit gives additional features to improve user experience, such as checking if virtual product exists in cloud catalogue (without downloading virtual model files):
+ArtaKit gives additional features to improve user experience, such as checking if virtual product exists in ARTA AR CLOUD (without downloading virtual model files):
 ```swift
 import ArtaKit
 
