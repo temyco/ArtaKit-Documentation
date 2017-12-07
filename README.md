@@ -63,7 +63,7 @@ public func productLoadProgress(progress: Float, totalBytesWritten: Int64, total
 public func productLoadCompleted(success: Bool, path: String)
 
 // called when error occurred while download process
-public func productLoadCompletedWithError(code: ArtaKit.ArtaClientError, message: String)
+public func productLoadCompletedWithError(code: ArtaClientError, message: String)
 ```
 3. Implement **productLoadCompleted** callback function from **step 2** to present augmented reality view controller
 ```swift
