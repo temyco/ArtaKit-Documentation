@@ -4,7 +4,6 @@ Augmented Reality To All
 # Prerequisites
 ArtaKit allows you to easily create augmented reality experiences for iPhone and iPad. By blending digital objects and information with the environment around you. ArtaKit help apps to interact with the real world in entirely new ways.
 
----
 
 # Installation and Setup
 
@@ -127,7 +126,6 @@ requestTimeout
 downloadProductFailed
 (failed download virtual product from cloud)
 ```
----
 
 # Supported devices:
 - [x] iPhone 6s and 6s Plus
