@@ -46,13 +46,13 @@ ArtaKit.instance.augmentedDebugEnabled = true
 
 # Implementation steps:
 
-1. Start load virtual product by code and use delegates to observe download progress and completion:
+1. Load virtual product by product code:
 ```swift
 import ArtaKit
 
 ArtaKit.instance.downloadVirtualProduct(productCode: "PRODUCT_CODE")
 ```
-2. Implement **ArtaKitProductLoaderDelegate**. It has three optional functions:
+2. Implement **ArtaKitProductLoaderDelegate** to observe download progress and completion. It has three optional functions:
 ```swift
 import ArtaKit
 
