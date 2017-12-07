@@ -126,7 +126,7 @@ downloadProductFailed
 (failed download virtual product from cloud)
 ```
 
-## Supported devices:
+## Supported devices
 - [x] iPhone 6s and 6s Plus
 - [x] iPhone 7 and 7 Plus
 - [x] iPhone SE
@@ -135,6 +135,6 @@ downloadProductFailed
 - [x] iPhone 8 and 8 Plus
 - [x] iPhone X
 
-## Supported iOS versions:
+## Supported iOS versions
 - [x] Apple’s iOS 11 and above
 
